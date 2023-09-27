@@ -156,9 +156,6 @@ class Malaysia(
         # in both states, effectively making it a nationwide holiday.
         dts_observed.add(self._add_chinese_new_years_day_two("Chinese New Year Holiday"))
 
-        # Vesak Day.
-        dts_observed.add(self._add_vesak_may("Vesak Day"))
-
         # Labour Day.
         dts_observed.add(self._add_labor_day("Labour Day"))
 
@@ -396,32 +393,7 @@ class MYS(Malaysia):
 
 
 class MalaysiaBuddhistCalendar(_CustomBuddhistCalendar):
-    VESAK_MAY_DATES = {
-        2001: (MAY, 7),
-        2002: (MAY, 27),
-        2003: (MAY, 15),
-        2004: (MAY, 3),
-        2005: (MAY, 22),
-        2006: (MAY, 12),
-        2007: (MAY, 1),
-        2008: (MAY, 19),
-        2009: (MAY, 9),
-        2010: (MAY, 28),
-        2011: (MAY, 17),
-        2012: (MAY, 5),
-        2013: (MAY, 24),
-        2014: (MAY, 13),
-        2015: (MAY, 3),
-        2016: (MAY, 21),
-        2017: (MAY, 10),
-        2018: (MAY, 29),
-        2019: (MAY, 19),
-        2020: (MAY, 7),
-        2021: (MAY, 26),
-        2022: (MAY, 15),
-        2023: (MAY, 4),
-    }
-
+    pass
 
 class MalaysiaChineseCalendar(_CustomChineseCalendar):
     LUNAR_NEW_YEAR_DATES = {
