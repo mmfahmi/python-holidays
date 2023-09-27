@@ -188,12 +188,6 @@ class Malaysia(
         # Christmas day.
         dts_observed.add(self._add_christmas_day("Christmas Day"))
 
-        # Birthday of the Prophet Muhammad (s.a.w.).
-        # a.k.a. Hari Keputeraan Nabi Muhammad (Sabah Act)
-        dts_observed.update(
-            self._add_mawlid_day("Maulidur Rasul (Birthday of the Prophet Muhammad)")
-        )
-
         # Hari Raya Puasa (2 days).
         # aka Eid al-Fitr;
         # exact date of observance is announced yearly
@@ -617,30 +611,6 @@ class MalaysiaIslamicCalendar(_CustomIslamicCalendar):
         2023: (FEB, 18),
     }
 
-    MAWLID_DATES = {
-        2001: (JUN, 4),
-        2002: (MAY, 24),
-        2003: (MAY, 14),
-        2004: (MAY, 2),
-        2005: (APR, 21),
-        2006: (APR, 11),
-        2007: (MAR, 31),
-        2008: (MAR, 20),
-        2009: (MAR, 9),
-        2010: (FEB, 26),
-        2011: (FEB, 16),
-        2012: (FEB, 5),
-        2013: (JAN, 24),
-        2014: (JAN, 14),
-        2015: ((JAN, 3), (DEC, 24)),
-        2016: (DEC, 12),
-        2017: (DEC, 1),
-        2018: (NOV, 20),
-        2019: (NOV, 9),
-        2020: (OCT, 29),
-        2021: (OCT, 19),
-        2022: (OCT, 10),
-    }
     NUZUL_AL_QURAN_DATES = {
         2001: (DEC, 3),
         2002: (NOV, 22),
